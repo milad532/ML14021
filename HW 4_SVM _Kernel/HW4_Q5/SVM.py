@@ -23,7 +23,7 @@ svm_linear = SVC(kernel='linear')
 svm_linear.fit(X_train, y_train)
 
 # Polynomial Kernel
-svm_poly = SVC(kernel='poly', degree=3)  
+svm_poly = SVC(kernel='poly', degree=3)# degree can be modified  
 svm_poly.fit(X_train, y_train)
 
 # RBF Kernel
